@@ -1,14 +1,21 @@
-//Main file for zephyr 
-//Probably the only file 
-//by b0jym
+// Main file for zephyr
+// Probably the only file
+// by b0jym
 
-//includes
+// includes
 #include <stdio.h>
+#include <string>
 
-//Class definition
+// Class definition
+class node {
+private:
+    std::string name;
+public:
+    node(/* args */);
+    node();
+};
+node::node(/* args */) {}
+node::node() {}
 
-//MAIN
-void main(){
-
-}
-
+// MAIN
+void main() {}
